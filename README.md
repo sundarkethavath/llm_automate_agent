@@ -34,7 +34,7 @@ cd my-llm
 pip install -r requirements.txt
 ```
 ### 3. Set Up Environment Variables
-1.Create a .env file and add your AI Proxy Token:
+### 1.Create a .env file and add your AI Proxy Token:
 
 -bash
 -Copy
@@ -81,21 +81,21 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contributions are welcome! Follow these steps to contribute:
 
 Fork the repository on GitHub.
-1.Create a new branch:
+### 1.Create a new branch:
 -bash
 -Copy
 -Edit
 ```
 git checkout -b feature-branch
 ```
-2.Make your changes and commit them:
+### 2.Make your changes and commit them:
 -bash
 -Copy
 -Edit
 ```
 git commit -m "Added new feature"
 ```
-3.Push to GitHub:
+### 3.Push to GitHub:
 -bash
 -Copy
 -Edit
