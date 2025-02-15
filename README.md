@@ -39,7 +39,9 @@ pip install -r requirements.txt
 - bash
 - Copy
 - Edit
-- echo "AIPROXY_TOKEN=your_token_here" > .env
+  ```
+  echo "AIPROXY_TOKEN=your_token_here" > .env
+  ```
 Note: Replace your_token_here with your actual AI Proxy Token.
 
 ### 4. Run Locally
