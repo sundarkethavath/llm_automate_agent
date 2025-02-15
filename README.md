@@ -34,18 +34,18 @@ cd my-llm
 pip install -r requirements.txt
 ```
 ### 3. Set Up Environment Variables
-### 1.Create a .env file and add your AI Proxy Token:
+ 1.Create a .env file and add your AI Proxy Token:
 
--bash
--Copy
--Edit
--echo "AIPROXY_TOKEN=your_token_here" > .env
+- bash
+- Copy
+- Edit
+- echo "AIPROXY_TOKEN=your_token_here" > .env
 Note: Replace your_token_here with your actual AI Proxy Token.
 
 ### 4. Run Locally
--bash
--Copy
--Edit
+- bash
+- Copy
+- Edit
 ```
 python run.py
 ```
@@ -53,14 +53,14 @@ python run.py
 To deploy using Docker, follow these steps:
 
 ### 1. Build the Docker Image
--bash
--Copy
--Edit
-docker build -t llm-agent .
+- bash
+- Copy
+- Edit
+docker build -t llm .
 ### 2. Run the Docker Container
--bash
--Copy
--Edit
+- bash
+- Copy
+- Edit
 ```
 docker run --env-file .env -p 8000:8000 llm
 ```
@@ -82,23 +82,23 @@ Contributions are welcome! Follow these steps to contribute:
 
 Fork the repository on GitHub.
 ### 1.Create a new branch:
--bash
--Copy
--Edit
+- bash
+- Copy
+- Edit
 ```
 git checkout -b feature-branch
 ```
 ### 2.Make your changes and commit them:
--bash
--Copy
--Edit
+- bash
+- Copy
+- Edit
 ```
 git commit -m "Added new feature"
 ```
 ### 3.Push to GitHub:
--bash
--Copy
--Edit
+- bash
+- Copy
+- Edit
 ```
 git push origin feature-branch
 ```
